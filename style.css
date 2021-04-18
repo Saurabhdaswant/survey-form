@@ -80,3 +80,16 @@ form p {
     padding: 1rem 3rem;
   }
 }
+
+@media only screen and (max-width: 752px) and (min-width: 562px) {
+  .heading {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  form {
+    max-width: 73%;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+  }
+}
