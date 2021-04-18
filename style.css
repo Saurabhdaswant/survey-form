@@ -48,6 +48,30 @@ form p {
 }
 
 .submit {
+  padding: 0.8rem;
   color: #f3f3f3;
   background-color: #37af65;
+}
+
+/* 320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens. */
+
+@media only screen and (max-width: 480px) {
+  .heading {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  form {
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  body {
+    background-color: rgb(128, 206, 231);
+  }
 }
